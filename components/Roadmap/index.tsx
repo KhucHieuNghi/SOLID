@@ -3,7 +3,7 @@
 const Roadmap = () => {
 
   return (
-    <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" id='roadmap'>
       <div className="container mb-20 mt-20">
         <div className="grid grid-cols-1 pb-8 text-center">
           <h3 className="mb-6 mt-10 text-2xl font-bold leading-none text-white md:text-4xl md:leading-none">

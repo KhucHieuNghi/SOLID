@@ -16,7 +16,7 @@ const menuData: Menu[] = [
   {
     id: 33,
     title: "TOKENOMICS",
-    path: "/",
+    path: "#roadmap",
     newTab: false,
   },
   {
@@ -32,8 +32,6 @@ const menuData: Menu[] = [
     path: "/",
     newTab: false,
   },
-  
 
- 
 ];
 export default menuData;

@@ -58,9 +58,9 @@ const Footer = () => {
 
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              Copyright ©2023 SolidBlock.io{" "}
+            Copyright @2024 Solidblock.io{" "}
               <a href="" rel="nofollow noopener">
-                All rights reserved.
+              All right reserved.
               </a>
             </p>
           </div>
