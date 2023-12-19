@@ -106,10 +106,13 @@ const Header = () => {
                 >
                   <ul className="block lg:flex lg:space-x-12">
                     {menuData.map((menuItem, index) => (
-                      <li key={index} className="group relative">
+                      <li key={index} className="group relative cursor-pointer">
                         {menuItem.path ? (
-                          <Link
-                            href={menuItem.path}
+                          <p
+                          onClick={() => {
+                            document.getElementById(menuItem.path)?.scrollIntoView({behavior: 'smooth'})
+                          }}
+                            // href={menuItem.path}
                             className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
                               usePathName === menuItem.path
                                 ? "text-primary dark:text-white"
@@ -117,7 +120,7 @@ const Header = () => {
                             }`}
                           >
                             {menuItem.title}
-                          </Link>
+                          </p>
                         ) : (
                           <>
                             <p
