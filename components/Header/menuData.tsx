@@ -10,28 +10,20 @@ const menuData: Menu[] = [
   {
     id: 2,
     title: "FEATURES",
-    path: "/",
+    path: "#features",
     newTab: false,
   },
   {
     id: 33,
     title: "TOKENOMICS",
-    path: "#roadmap",
+    path: "#tokenomics",
     newTab: false,
   },
   {
     id: 3,
     title: "ROADMAP",
-    path: "/",
+    path: "#roadmap",
     newTab: false,
   },
-
-  {
-    id: 56,
-    title: "NFT",
-    path: "/",
-    newTab: false,
-  },
-
 ];
 export default menuData;

@@ -35,7 +35,7 @@ const Hero = () => {
                 <div className="py-4">
                   <b className="">
                     <p> Contract: </p>
-                    <p> 0x97271AC2d46513A31eD41793191F08011abfC1A6</p>
+                    <p className="token-contract"> 0x97271AC2d46513A31eD41793191F08011abfC1A6</p>
                   </b>
                   <Link
                     href="https://www.team.finance/view-coin/0x97271AC2d46513A31eD41793191F08011abfC1A6?name=SOLIDBLOCK&symbol=SOLID&chainid=0x1"

@@ -34,7 +34,7 @@ const Team = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://x.com/GergeDarlington"
+                href="https://twitter.com/GergeDarlington"
                 className="mx-2 text-gray dark:text-gray hover:text-gray dark:hover:text-gray group-hover:text-white"
                 aria-label="Facebook"
               >
@@ -75,7 +75,7 @@ const Team = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://x.com/surp00_surp00"
+                href="https://twitter.com/surp00_surp00"
                 className="mx-2 text-gray dark:text-gray hover:text-gray dark:hover:text-gray group-hover:text-white"
                 aria-label="Facebook"
               >
