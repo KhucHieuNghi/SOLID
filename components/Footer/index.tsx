@@ -43,7 +43,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="https://coinmarketcap.com/currencies/solidblock/"
+                    href="https://twitter.com/SolidBlockTech"
                     aria-label="social-link"
                     className="dark:text-body-color-dark mr-6 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                   >
