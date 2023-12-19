@@ -110,7 +110,7 @@ const Header = () => {
                         {menuItem.path ? (
                           <p
                           onClick={() => {
-                            if(!menuItem.path) {
+                            if(menuItem.path === '/') {
                               document.body.scrollIntoView({behavior: 'smooth'})
                               return; 
                             }
